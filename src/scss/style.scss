@@ -1,0 +1,20 @@
+@import "fonts";
+body {
+    font-family: 'MontserratAlternates', sans-serif;
+    span {
+        color: hotpink;
+    }
+    background: url(../img/mountain.png) 0 0 no-repeat;
+}
+
+@media (max-width: 760px) {
+    span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+    span {
+        color: gray;
+    }
+}
